@@ -10,6 +10,12 @@ function displayCount() {
   document.getElementById("countDisplay").innerText = count;
 }
 
+function resetCount() {
+    count = 0;  
+    displayCount();
+    alert("Count has been reset to 0.");
+    }
+
 
 
 function checkCountValue()
