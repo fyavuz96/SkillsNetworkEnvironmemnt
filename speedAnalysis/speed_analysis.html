@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hız Testi Analizi</title>
+</head>
+<body>
+  <h1>Hızlı Yazma Analizi</h1>
+
+    <label for="inputText">Aşağıdaki metni yazın:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="Yazmak için hazır olun..."></textarea><br>
+
+    <label for="userInput">Yazmanız:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="Hazır olduğunuzda yazmaya başlayın"></textarea><br>
+    <button onclick="startTest()">Testi Başlat</button>
+        <button onclick="endTest()" id="btn">Testi Bitir</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
